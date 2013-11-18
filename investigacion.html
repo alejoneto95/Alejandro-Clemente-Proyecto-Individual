@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Valoracion</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
+<script src="js/jquery min-js.js"></script>
+<script src="js/jquery-ui.js"></script>
+<link rel="stylesheet" href="estilo_investigacion.css">
+<link rel="stylesheet" href="principal.css">
+<link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+
+
+  <div id="container">
+  <br>
+<center>
+  <h2>TOYOTA MOTOR COMPANY</h2></center>
+       <center><img src="img/toyota_logo_1.jpg" width="146" height="82" /></center><br>
+        <div class="ejemplo-5">
+                <ul class="bloque-sub">
+                    <li id="modal1"><a href="index.html">Inicio</a></li>
+                    <li id="modal2"><a href="#">Accesorios</a></li>
+                    <li id="modal3"><a href="contacto.html">Contacto</a></li>
+                    <li id="modal4"><a href="#">Valoracion</a></li>
+                    <li id="modal5"><a href="intro.html">Introduccion</a></li>
+          </ul>
+    </div>
+    
+ 
+	<div class="contenido">
+		<div id="b1" class="boton">Dialogo modal</div>
+		<div id="b2" class="boton">Dialogo no modal</div>
+	
+
+		<div id="dialogo" title="Dialogo Modal" style=" background:#666;display:none;font-family:Arial, Helvetica, sans-serif; color:#FFF;line-height:28px;font-size:15px;text-align:justify;">
+			<h2>Positivo</h2>
+            <br>
+            Aprender a programar en el lenguaje JavaScript, conocer mas acerca del manejo de objetos, clases y funciones, el manejo de arrays, ciclos, etc, a mi parecer la tematica de esta materia fue excelente, el contenido es muy sencillo de usar y facil de aplicar.
+		</div>
+		<div id="dialogo2" title="Dialogo no modal" style="display:none; background:#666;font-family:Arial, Helvetica, sans-serif;color:#FFF;line-height:28px;font-size:15px;text-align:justify;">
+			
+			<h2>Interesante</h2>
+            La forma en la que se diseño JavaScript como un lenuaje de programacion bien estructurado en el cual el programador tiene que definir las opciones que tendra el cliente a utilizar, es decir el muy manejo de la interfaz del usuario aunque tenga muchas otras utilidades, ya que con esto se puede trabajar correctamente una pagina web y a la hora de implementar servicios de datos como lo que se vera en lenguaje interpretado en el servidor, este aprendizaje nos ayudara bastante.
+		</div>
+    <ol>
+          <li></li>
+</ol>
+<script type="text/javascript"> 
+	
+		
+			$(document).ready(function(){
+				$("#b1").click(function() {
+					$("#dialogo").dialog({
+						width: 300,
+						height: 300,
+						show: "scale",
+						hide: "scale",
+						resizable: "false",
+						position: "center",
+						modal: "true"
+					});
+				});
+				$("#b2").click(function() {
+					$("#dialogo2").dialog({
+						width: 590,
+						height: 350,
+						show: "scale",
+						hide: "scale",
+						resizable: "false",
+						position: "center"		
+					});
+				});
+			});
+	
+	
+	</script>
+	
+</body>
+
+
+</html>

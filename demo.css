@@ -1,0 +1,138 @@
+/* Demo CSS - You do not need this css in your own slider */
+
+body{
+	font-family: "Open Sans", helvetica, arial;
+	
+	background-color:#000;
+
+}
+
+pre{
+	font-family: "Source Code Pro", monospace;
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: whiteSmoke;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+h2{
+	font-size: 48px;
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+}
+
+pre + h2{
+	margin-top: 80px;
+}
+
+#container{
+	max-width:620px;
+	margin:0 auto;
+	padding-bottom:80px;
+	width:1000;
+		
+	height:1200;
+}
+
+#banner-fade,
+#banner-slide{
+	margin-bottom: 60px;
+}
+
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+ol.bjqs-markers li a{
+	padding:5px 10px;
+	background:#000;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background: #999;
+}
+
+p.bjqs-caption{
+	background: rgba(255,255,255,0.5);
+}
+
+
+	#historia{
+	background-color: #FFF;
+	background-image: url(img/bg.jpg);
+	border: solid;
+	border-color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 86px;
+	top: 715px;
+	height: 272px;
+	width: 422px;
+}
+
+	#historia1{
+	background-color: #FFF;
+	background-image: url(img/bg.jpg);
+	border: solid;
+	border-color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 323px;
+	top: 308px;
+	height: 779px;
+	width: 644px;
+}
+
+
+	#foto{
+	background-color: #FFF;
+	border: solid;
+	border-color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 570px;
+	top: 717px;
+	height: 201px;
+}
+
+	#foto1{
+	border-color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	size: 23;
+	left: 762px;
+	top: 719px;
+	width: 323px;
+	height: 245px;
+}
+
+
+.contenido {
+	width:460px;
+	margin:0 auto;
+}
